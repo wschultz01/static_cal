@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Salary Calculator</title>
+    <script src="scripts/jQuery.js"></script>
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Salary Calculator</h1>
+        </header>
+        <main>
+            <section>
+                <h3>Add Employee</h3>
+                <form id="form">
+                    <input type="text" id="fname" name="fname" placeholder="First Name" required />
+                    <input type="text" id="lname" name="lname" placeholder="Last Name" required />
+                    <input type="text" id="id" name="id" placeholder="ID" required />
+                    <input type="text" id="title" name="title" placeholder="Title" required />
+                    <input type="text" id="AnnualSalary" name="asalary" placeholder="Annual Salary" required />
+                </form>
+                <button id="btn-add" type="submit" form="form">Submit</button>
+            </section>
+            <section>
+                <h3>Employees</h3>
+                <div class="table">
+                    <table colspan="6">
+                        <thead>
+                            <tr>
+                                <td>First Name</td>
+                                <td>Last Name</td>
+                                <td>ID</td>
+                                <td>Title</td>
+                                <td>Annual Salary</td>
+                                <td></td>
+                            </tr>
+                        </thead>
+                        <tbody class="addEmployee">
+                        </tbody>
+                    </table>
+                </div>
+                <div class="container_two total">
+                    <h3>Monthly Total: <span id="total"></span></h3>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

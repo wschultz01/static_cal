@@ -1,0 +1,87 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 600px;
+    border: solid 1px black;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.container_two {
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    height: 45px;
+}
+
+input, button {
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+th, td {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 0;
+}
+
+thead tr {
+    background-color: darkolivegreen;
+    color: #ffffff;
+}
+
+tr {
+    border-bottom: solid 1px black;
+}
+
+table {
+    width: 100%;
+    empty-cells: hide;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table tr:nth-child(even) {
+    background-color: lightgray;
+  }
+
+.table {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.total {
+    text-align: right;
+}
+
+.total h3 {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+table {
+    padding-bottom: 10px;
+}
+
+#btn-add {
+    float: right;
+}
